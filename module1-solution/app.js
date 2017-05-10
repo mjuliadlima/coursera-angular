@@ -10,13 +10,11 @@ function LunchCheckController($scope) {
   $scope.checkIfTooMuch = function () {
     if (!$scope.dishes) {
       $scope.message = "Please enter data first!";
-      $scope.messageStyle={color:'red'};
-      $scope.borderStyle={border:'1px solid red'};
+      $scope.color="red";
       return;
     }
     var numberOfDishes = calculatNumberOfDishes($scope.dishes);
-    $scope.messageStyle={color:'green'}
-    $scope.borderStyle={border:'1px solid green'};
+    $scope.color="green";
     if (numberOfDishes <= 3) {
       $scope.message = "Enjoy!";
     } else {
