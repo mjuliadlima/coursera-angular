@@ -28,7 +28,7 @@ function ShoppingListCheckOffService() {
     { name: "strawberry", quantity: 10 },
     { name: "apples", quantity: 5 },
     { name: "bananas", quantity: 3 },
-    { name: "grape", quantity: 5 },
+    { name: "pineapples", quantity: 5 },
     { name: "mellow", quantity: 20 }
   ];
   // List of bought items
